@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# README
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
+This project is a React Native application designed for a bike-themed platform. It includes functionality for user authentication (sign-in and sign-up) and navigation through various pages such as Home, About, and Contact.
 
-## Get started
+## Key Features
+- **Authentication Overlay**: Users can sign in or sign up using a dedicated overlay on the home screen.
+- **Dynamic Pages**:
+  - Home Page: Displays a welcome message and background image with dynamic content.
+  - About Page: Provides information about bikes, including history and benefits.
+  - Contact Page: A form for users to send inquiries.
+- **Responsive Design**: Optimized for various screen sizes with adaptive styling.
 
-1. Install dependencies
+## Process
+1. **Home Page**:
+   - Implemented a full-screen background image.
+   - Added an overlay for authentication with email and password fields.
+   - Configured Firebase Authentication for sign-in and sign-up functionality.
+   - Used `onAuthStateChanged` to manage user sessions.
 
-   ```bash
-   npm install
-   ```
+2. **About Page**:
+   - Added detailed text sections about bicycles, their history, and benefits.
+   - Included a relevant image with responsive styling.
 
-2. Start the app
+3. **Contact Page**:
+   - Created a form with inputs for name, email, and message.
+   - Styled for clarity and ease of use.
 
-   ```bash
-    npx expo start
-   ```
+4. **Styling**:
+   - Applied professional and adaptive styling using `StyleSheet`.
+   - Ensured images and elements resize properly on different devices.
 
-In the output, you'll find options to open the app in a
+## Tools and Libraries
+- **React Native** for building the application.
+- **Firebase** for user authentication.
+- **Expo Router** for navigation.
+- **React Native Paper** for UI components.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## How to Run
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Configure Firebase by adding your credentials to `firebaseConfig.js`.
+4. Run the app using `expo start`.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Notes
+- Replace placeholder image URLs with actual image links.
+- Ensure Firebase is set up properly with your project credentials.
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Enjoy exploring the Bike World app!
