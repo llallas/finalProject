@@ -36,14 +36,5 @@ This project is a React Native application designed for a bike-themed platform. 
 - **Expo Router** for navigation.
 - **React Native Paper** for UI components.
 
-## How to Run
-1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Configure Firebase by adding your credentials to `firebaseConfig.js`.
-4. Run the app using `expo start`.
-
-## Notes
-- Replace placeholder image URLs with actual image links.
-- Ensure Firebase is set up properly with your project credentials.
 
 Enjoy exploring the Bike World app!
